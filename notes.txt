@@ -1,0 +1,17 @@
+* Sass! *
+
+- Instalar desde consola:
+
+    npm i -g node-sass
+
+- Empezar a correr node-sass en mi carpeta:
+
+    node-sass style.scss style.css
+
+- Se pueden definir variables las cuales se definen con el símbolo $ delante
+
+- En consola:
+
+    node-sass style.scss style.css -w
+    (-w significa 'watch', mira la carpeta para actualizar automáticamente el CSS)
+
