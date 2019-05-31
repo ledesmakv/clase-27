@@ -1,29 +1,33 @@
 @mixin boton {
-    width: 200px;
-    height: 48px;
-    border-radius: 60px;
-    color: #ffffff;
-    margin: 10px;
-    background-color: red;
-  }
-  
-  
-  .alerta {
-    @include boton;
-    background-color: gold;
-  }
-  
-  .peligro {
-    @include boton;
-    background-color: red;
-  }
-  
-  .normal {
-    @include boton;
-    background-color: blue;
-  }
-  
-  .ok {
-    @include boton;
-    background-color: green;
-  }
+width: 200px;
+height: 48px;
+border-radius: 60px;
+color: #ffffff;
+margin: 10px;
+background-color: red;
+}
+
+@mixin flex {
+display: flex;
+justify-content: center;
+}
+
+.alerta {
+@include boton;
+background-color: gold;
+}
+
+.peligro {
+@include boton;
+background-color: red;
+}
+
+.normal {
+@include boton;
+background-color: blue;
+}
+
+.ok {
+@include boton;
+background-color: green;
+}

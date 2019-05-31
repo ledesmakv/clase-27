@@ -4,7 +4,7 @@
 
     npm i -g node-sass
 
-- Empezar a correr node-sass en mi carpeta:
+- Empezar a correr node-sass en mi carpeta/proyecto:
 
     node-sass style.scss style.css
 
@@ -15,3 +15,4 @@
     node-sass style.scss style.css -w
     (-w significa 'watch', mira la carpeta para actualizar automáticamente el CSS)
 
+* Note to self: cuidado con bash, el maldito cambia las / por lo que no me renderiza los archivos >:v
